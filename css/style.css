@@ -1,0 +1,344 @@
+.s1 {
+    background: url('../image/five.jpg');
+    background-size: cover;
+}
+
+.s2 {
+    background: url('../image/five.jpg');
+    background-size: cover;
+}
+
+.s3 {
+    background: url('../image/five.jpg');
+    background-size: cover;
+}
+
+.s4 {
+    background: url('../image/five.jpg');
+    background-size: cover;
+}
+span{
+    background-color: white !important;
+}
+
+.s1 h1{
+    font-family: 'Lato', sans-serif;
+    color:white;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 1000;
+    font-size: 70px;
+}
+.s1 h3{
+    margin: 0px;
+    padding: 0px;
+    color:white;
+}
+.intro_image{
+    margin-bottom:3%;
+    margin-left: 160px;
+}
+.intro_image img{
+  width:300px;
+}
+.intro-text{
+    margin-top: 33%;
+    margin-left: 10%;
+}
+#typing {
+    position: relative;
+    line-height: 24px;
+    display: inline-block;
+    color: #D20EBC;
+    font-weight: bold;
+    min-width: 1px;
+    min-height: 24px;
+  }
+  #typing:after {
+    content: "";
+    position: absolute;
+    top: 5%;
+    right: -2px;
+    width: 1px;
+    height: 90%;
+    border-right: 2px solid #FFF;
+    animation: blink .5s infinite ease;
+  }
+  @keyframes blink{
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1%;
+    }
+  }
+  
+  
+  .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+  
+  .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background:#02CECB;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  
+  svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #fff;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1s ease-in-out;
+  }
+  
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: #A53ABC;
+    color: white;
+  }
+  
+  .btn:hover svg {
+    stroke-dashoffset: -480;
+  }
+  
+  .btn span {
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  @media (max-width: 575.98px) { 
+    .s1 h1{
+      font-size: 42px;
+    }
+    #typing{
+      font-weight: bold;
+
+    }
+    .intro_image{
+      width: 350px;
+      overflow: hidden;
+      margin-left: 0;
+      
+  }
+  .intro_image img{
+    width:300px;
+    margin-right: 30px;
+    margin-top: 50px;
+  }
+  .about-avatar{
+    display: none;
+  }
+  .about-text{
+    text-align: center;
+  }
+  .counter{
+    display: none;
+  }
+  .skill-img{
+    width:155px !important;
+    margin: 15px !important;
+    height: 150px !important;
+  }
+  .s2-head h1{
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+   }
+
+.img{
+  width:500px !important;
+}
+  .s2-head{
+    margin-bottom: 30px;
+    color: white;
+    }
+  .skill-img{
+    border-radius: 5px;
+    background-color:white;
+    margin:25px; 
+    width: 160px; 
+    height: 160px;
+    float:left
+  }
+
+  form {
+    width: 70%;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:60px;
+    margin: 12px auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    position:relative;
+    z-index:1;
+  }
+  
+  form > div{
+    position:absolute;
+    top:0;
+    left:50%;
+    padding:0 20px;
+    transform:translate(-50%,-50%);
+    background-color:black;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  form > div > img{
+    filter:invert(1);
+    width:100px;
+  }
+  
+  form > input,
+  form > textarea {
+    padding: 12px;
+    margin: 12px auto;
+    border: 1px solid #ccc;
+    color: #ddd;
+    background-color: #222;
+    border-radius: 4px;
+    display: block;
+    width: 80%;
+  }
+  
+  form > textarea{
+    height:100px;
+    resize:none;
+  }
+  
+  form > input[type="submit"] {
+    max-width: 20vw;
+    padding-left: 1%;
+    padding-right: 1%;
+    cursor: pointer;
+    transition: 0.35s;
+    margin-bottom: 20px;
+  }
+  
+  form > input[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  .about-text h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0 0 6px;
+  }
+  @media (max-width: 767px) {
+    .about-text h3 {
+      font-size: 35px;
+    }
+  }
+  .about-text h6 {
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  @media (max-width: 767px) {
+    .about-text h6 {
+      font-size: 18px;
+    }
+  }
+  .about-text p {
+    font-size: 18px;
+    max-width: 450px;
+  }
+  .about-text p mark {
+    font-weight: 600;
+    color: #20247b;
+  }
+  
+  .about-list {
+    padding-top: 10px;
+  }
+  .about-list .media {
+    padding: 5px 0;
+  }
+  .about-list label {
+    color: #05CBCB;
+    font-weight: 600;
+    width: 88px;
+    margin: 0;
+    position: relative;
+  }
+  .about-list label:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 11px;
+    width: 1px;
+    height: 12px;
+    background: #20247b;
+    -moz-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    margin: auto;
+    opacity: 0.5;
+  }
+  .about-list p {
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  @media (max-width: 991px) {
+    .about-avatar {
+      margin-top: 30px;
+    }
+  }
+  
+  .about-section .counter {
+    padding: 22px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  }
+  .about-section .counter .count-data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .about-section .counter .count {
+    font-weight: 700;
+    color: white;
+    margin: 0 0 5px;
+  }
+  .about-section .counter p {
+    font-weight: 600;
+    margin: 0;
+  }
+  mark {
+      background-image: linear-gradient(rgba(252, 83, 86, 0.6), rgba(252, 83, 86, 0.6));
+      background-size: 100% 3px;
+      background-repeat: no-repeat;
+      background-position: 0 bottom;
+      background-color: transparent;
+      padding: 0;
+      color: currentColor;
+  }
+  .theme-color {
+      color: #fc5356;
+  }
+  .dark-color {
+      color: white;
+  }
+
+  
